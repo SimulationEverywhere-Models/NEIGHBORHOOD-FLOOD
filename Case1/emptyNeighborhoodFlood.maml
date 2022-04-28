@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> neighborhoodCell&#xd;</components>
+  </top>
+  <neighborhoodCell>
+    <type> cell&#xd;</type>
+    <dim> (20,20)&#xd;</dim>
+    <delay> transport&#xd;</delay>
+    <defaultDelayTime> 1000&#xd;</defaultDelayTime>
+    <border> nonwrapped&#xd;</border>
+    <neighbors> neighborhoodCell(-1,1) neighborhoodCell(0,1) neighborhoodCell(1,1)&#xd;</neighbors>
+    <neighbors> neighborhoodCell(-1,0) neighborhoodCell(0,0) neighborhoodCell(1,0)&#xd;</neighbors>
+    <neighbors> neighborhoodCell(-1,-1) neighborhoodCell(0,-1) neighborhoodCell(1,-1)&#xd;</neighbors>
+    <initialValue> 0&#xd;</initialValue>
+    <initialCellsValue> emptyNeighborhoodFlood.val&#xd;</initialCellsValue>
+    <localtransition> rules &#xd;</localtransition>
+  </neighborhoodCell>
+  <rules>
+    <rule> { (0,0) -&#xd;</rule>
+    <rule> { (0,0) } 1000 { t }&#xd;</rule>
+  </rules>
+</CDPlusPlus_Builder_Version_1.0.0>

@@ -1,0 +1,4 @@
+cd /D "C:\Eclipse\workspace\NeighborhoodFlood\Case1\"
+"C:/Eclipse/plugins/cdBuilder.simulator_1.0.0.201109022248/internal/simuOrig.exe"  -m"emptyNeighborhoodFlood.ma" -o"emptyNeighborhoodFlood.out" -l"emptyNeighborhoodFlood.log" -t"00:02:00:000" 
+rem 
+pause
